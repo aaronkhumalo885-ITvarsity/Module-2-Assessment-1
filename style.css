@@ -37,7 +37,7 @@ body{
     #tabs-top a{
         float: left;
         display: block;
-        width: 25%;
+        width: 30%;
         height: 35px;
         font-weight: 700;
         color: white;
@@ -45,7 +45,10 @@ body{
         text-decoration: none;
         padding-top: 12px;
     }
-    
+    #tabs-top a :hover{
+        color: blue;
+        
+    }
     /*============ MAIN-HOME ===========*/
     
     #main-home{
@@ -75,7 +78,10 @@ body{
         text-decoration: none;
         padding-top: none;
     }
-    
+    #tabs-bottom  a :hover{
+        color: blue;
+        
+    }
     /*============ MAIN ===========*/
     
     #main{
@@ -127,7 +133,8 @@ body{
         margin-top: 25px;
         height: 40px;
     }
-    
+
+    -*-/    
     /*============INFO BOX FULL ===========*/
     
     #info-box-full{

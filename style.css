@@ -37,7 +37,7 @@ body{
     #tabs-top a{
         float: left;
         display: block;
-        width: 30%;
+        width: 33%;
         height: 35px;
         font-weight: 700;
         color: white;
@@ -45,10 +45,7 @@ body{
         text-decoration: none;
         padding-top: 12px;
     }
-    #tabs-top a :hover{
-        color: blue;
-        
-    }
+ 
     /*============ MAIN-HOME ===========*/
     
     #main-home{
@@ -76,12 +73,9 @@ body{
         color: white;
         text-align: center;
         text-decoration: none;
-        padding-top: none;
+        padding-top: 12px;
     }
-    #tabs-bottom  a :hover{
-        color: blue;
-        
-    }
+  
     /*============ MAIN ===========*/
     
     #main{
@@ -134,7 +128,7 @@ body{
         height: 40px;
     }
 
-    -*-/    
+ 
     /*============INFO BOX FULL ===========*/
     
     #info-box-full{
@@ -195,13 +189,11 @@ body{
   }
   
   .button{
-        display : block;
-        background-color: forestgreen;
-        text-decoration : none;
-        text-align  : center;
-        color       : white;
-        font-size   : 16px;
-        font-weight : 600;
-        margin : 12px 0;
-        padding : 8px 0;
+    cursor: pointer;
+ 
   }
+.button :hover{
+    cursor: pointer;
+    background-color: forestgreen;
+    
+}

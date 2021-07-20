@@ -46,10 +46,7 @@ body{
         text-decoration: none;
         padding-top: 12px;
     }
-    #tabs-top a :hover{
-        color: blue;
-        
-    }
+  
     /*============ MAIN-HOME ===========*/
     
     #main-home{
@@ -79,10 +76,7 @@ body{
         text-decoration: none;
         padding-top: none;
     }
-    #tabs-bottom  a :hover{
-        color: blue;
-        
-    }
+   
     /*============ MAIN ===========*/
     
     #main{
@@ -195,7 +189,7 @@ body{
         border : 1px solid #929292;
   }
   
-  .button :hover{
+  .button{
         display : block;
         background-color: forestgreen;
         text-decoration : none;
